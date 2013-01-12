@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
+  "dependencies" : {
+    "mongodb": "1.2.8",
+    "msgpack": "0.1.7",
+    "irclog-provider": "git+https://github.com/CarettaCaretta/node-irclog-providers.git"
+  },
   "author": "",
   "license": "BSD"
 }
