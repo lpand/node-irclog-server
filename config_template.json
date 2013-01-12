@@ -1,0 +1,32 @@
+{
+	"irc": {
+		"server": "irc.server.org"
+	,	"client": {
+			"nick": "nodeclient"
+    ,	"userName": "nodeclient"
+    ,	"realName": "nodeclient"
+    ,	"showErrors": true
+    ,	"autoConnect": true
+    ,	"channels": ["#whatever"] 
+    ,	"stripColors": true
+    ,	"messageSplit": 512
+		}
+	}
+, "tcpServer": {
+		"host": "10.10.10.10"
+	,	"port": 8124
+	}
+,	"events": {
+		"JOIN": 0
+	,	"PART": 1
+	,	"NICK": 2
+	,	"MESSAGE": 3
+	, "ME": 4
+	}
+,	"db": {
+		"user": ""
+	,	"password": ""
+	,	"host": "127.0.0.1"
+	,	"port": 27017
+	}
+}
