@@ -1,18 +1,5 @@
 {
-	"irc": {
-		"server": "irc.server.org"
-	,	"client": {
-			"nick": "nodeclient"
-    ,	"userName": "nodeclient"
-    ,	"realName": "nodeclient"
-    ,	"showErrors": true
-    ,	"autoConnect": true
-    ,	"channels": ["#whatever"] 
-    ,	"stripColors": true
-    ,	"messageSplit": 512
-		}
-	}
-, "tcpServer": {
+	"tcpServer": {
 		"host": "10.10.10.10"
 	,	"port": 8124
 	}
